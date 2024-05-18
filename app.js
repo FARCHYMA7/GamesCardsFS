@@ -3,14 +3,14 @@ const express = require('express');
 const cors = require('cors');
 // Create an Express app
 const app = express();
-const port = 3000; // You can use any available port
+const port = 3010; // You can use any available port
 
 app.use(cors());
 // Define a route to fetch and return data from the API
-app.get('/countries', async (req, res) => {
+app.get('/games', async (req, res) => {
     try {
         // Fetch data from the API
-        const apiResponse = await fetch('https://restcountries.com/v2/all?fields=name,flag');
+        const apiResponse = await fetch('https://www.freetogame.com/api/games');
 
         // Check if the request was successful (status code 200)
         if (!apiResponse.ok) {
