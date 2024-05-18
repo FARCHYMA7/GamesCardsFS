@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 // Create an Express app
 const app = express();
-const port = 3010; // You can use any available port
+const port = 3030; // You can use any available port
 
 app.use(cors());
 // Define a route to fetch and return data from the API
