@@ -1,4 +1,39 @@
 body {
-
-    background-color: blue;
-}
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #go-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .games-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .game-card {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .game-card img {
+    max-width: 50%;
+    border-radius: 4px;
+  }
+  
